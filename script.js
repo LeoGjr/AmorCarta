@@ -1,11 +1,11 @@
 const mensagens = [
     "Oi meu amor 💖",
     "Essa cartinha é só para te fazer lembrar",
-    "O quanto você é especial pra mim",
+    "O quanto você é especial para mim",
     "Cada dia com você é um presente",
     "Desde o momento em que te conheci",
     "Minha vida mudou de um jeito que eu nem sabia que era possível",
-    "Quero que você saiba o quanto você é especial para mim",
+    "Quero que você saiba o quanto você é especial",
     "Eu admiro tudo em você, cada detalhe, cada gesto",
     "E a pessoa incrível que você é",
     "Eu sonho com o futuro que vamos construir",
