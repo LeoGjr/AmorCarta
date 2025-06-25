@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Para Você ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="heart.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <main>
+        <!-- Corações animados -->
+        <div id="hearts-container" aria-hidden="true"></div>
+
+        <!-- Envelope interativo -->
+        <section class="scene" tabindex="0" role="button" aria-pressed="false" aria-label="Clique para abrir a carta"
+            id="envelope-section">
+            <div class="envelope" id="envelope">
+                <div class="frente" id="frente-envelope">
+                    <p>💌 Clique para abrir</p>
+                </div>
+                <div class="verso" id="verso-envelope">
+                    <div class="carta" id="carta">
+                        <p id="mensagem"><span id="maquina"></span><span class="cursor" aria-hidden="true">|</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Botão final -->
+        <div id="containerBotaoFinal" style="display:none;">
+            <button id="botaoFinal" aria-label="Mostrar surpresa final">💖 Clique aqui 💖</button>
+        </div>
+
+        <!-- Galeria com modal -->
+        <section class="galeria" id="galeria" aria-label="Galeria de fotos">
+            <h2>Nossos Momentos 💑</h2>
+            <div class="fotos">
+                <figure>
+                    <div class="overlay">?</div>
+                    <img src="foto1.jpeg" alt="Nós dois sorrindo" tabindex="0" />
+                    <figcaption>Licença</figcaption>
+                </figure>
+                <figure>
+                    <div class="overlay">?</div>
+                    <img src="foto2.jpeg" alt="Abraço apertado" tabindex="0" />
+                    <figcaption>Para iluminar</figcaption>
+                </figure>
+                <figure>
+                    <div class="overlay">?</div>
+                    <img src="foto3.jpeg" alt="Risos juntos" tabindex="0" />
+                    <figcaption>Te Amo</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Modal da galeria -->
+        <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+            <button id="fecharModal" aria-label="Fechar imagem ampliada">&times;</button>
+            <img id="modal-img" alt="" />
+            <p id="modal-caption"></p>
+        </div>
+
+        <!-- Música -->
+        <audio id="musica" src="musica.mp3" preload="auto"></audio>
+        <audio id="som-tecla" src="typing-sound.mp3" preload="auto"></audio>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
