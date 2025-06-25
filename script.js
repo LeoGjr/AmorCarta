@@ -13,8 +13,8 @@ const mensagens = [
     "E mesmo que a vida traga desafios",
     "Sei que com você ao meu lado, tudo é mais leve e mais bonito",
     "Obrigado por ser meu porto seguro, minha melhor amiga, meu amor",
-    "Eu te amo hoje, ",
-    "Amanhã, ",
+    "Eu te amo hoje,",
+    "Amarei amanhã,",
     "E todos os dias que vierem 💖",
     "NEOQEAV"
 ];
