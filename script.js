@@ -8,11 +8,14 @@ const mensagens = [
     "Quero que você saiba o quanto você é especial",
     "Eu admiro tudo em você, cada detalhe, cada gesto",
     "E a pessoa incrível que você é",
-    "Eu sonho com o futuro que vamos construir",
+    "Eu sonho com o futuro que ",
+    "Vamos construir",
     "E mesmo que a vida traga desafios",
     "Sei que com você ao meu lado, tudo é mais leve e mais bonito",
     "Obrigado por ser meu porto seguro, minha melhor amiga, meu amor",
-    "Eu te amo hoje, amanhã e todos os dias que vierem 💖",
+    "Eu te amo hoje, ",
+    "Amanhã, ",
+    "E todos os dias que vierem 💖",
     "NEOQEAV"
 ];
 
